@@ -1,0 +1,15 @@
+.main{
+    margin-left: 30px;
+}
+.div-1 a{
+    margin-left: 5px;
+    color: #696671;
+    text-decoration: none;
+    margin-right: 5px;
+    
+  }
+  .div-1 a.active {
+    color:#06286e ;
+    /* font-size: 20px; */
+    font-weight: 500;
+  }

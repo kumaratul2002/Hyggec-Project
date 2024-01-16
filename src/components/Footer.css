@@ -1,0 +1,59 @@
+.foot{
+
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100px;
+    margin-left: -600px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100px;
+    height: 70px;
+    flex-shrink: 0;
+    /* background: url('E:/00_projects/12_hyggec/myapp/public/images/Rect.png') ; */
+    background-repeat: no-repeat;
+}
+img{
+    width:100px;
+    height: 70px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+
+}
+.bottom{
+    width: 115.143px;
+    height: 14.543px;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 300px;
+    margin-right: -700px;
+}
+.nd{
+    font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    display: flex;
+    background: linear-gradient(180deg, #06286E 0%, #164EC0 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  align-items: center;
+}

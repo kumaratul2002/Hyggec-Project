@@ -1,0 +1,57 @@
+
+  /* src/components/FAQAccordion.css */
+  .faqheading{
+    leading-trim: both;
+    background: linear-gradient(180deg, #06286E 0%, #164EC0 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+text-edge: cap;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.24px;
+margin-left: 120px;
+  }
+  .maindiv{
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+.faq-accordion {
+    margin: 10px;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #ddd;
+    border-radius: 12px;
+border: 3px solid #217EEC;
+margin-top: 23px;
+  }
+  
+  .question {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px;
+    user-select: none;
+    /* Can education flashcards be used for test preparation? (Component 55) */
+color: #28262C;
+
+leading-trim: both;
+
+text-edge: cap;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 162.5% */
+  }
+  
+  .answer {
+    padding: 10px;
+  }
+  

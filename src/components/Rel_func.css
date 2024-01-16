@@ -1,0 +1,105 @@
+.main1{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.heading{
+    /* color:#06286e ; */
+    font-size: 25px;
+    font-weight: 900;
+    background: linear-gradient(180deg, #06286E 0%, #164EC0 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+/* text-align: center; */
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.navi a{
+    margin-top: 20px;
+    color: #696671;
+    text-decoration: none;
+    margin-right: 50px;
+    color: #696671;
+    /* leading-trim: both;
+    text-edge: cap; */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.mid-big{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+     height: 300px; 
+}
+.navi a:hover {
+    text-decoration: underline;
+    /* Study */
+color: #06286E;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+.box{
+    
+    margin-top: 20px;
+    width: 712px;
+    height: 393.194px;
+    flex-shrink: 0;
+    border-radius: 42.507px;
+    background: linear-gradient(223deg, #051A91 -4.31%, #061C93 14.41%, #2284F1 81.88%, #1F80EB 103.81%);
+}
+.symbols{
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+  }
+.top-left,
+.top-right {
+  padding: 20px; /* Optional padding for visualization */
+}
+
+.top-left {
+  align-self: flex-start;
+}
+
+.top-right {
+margin-top: -70px;
+  align-self: flex-end;
+}
+.box-text{
+    color: #FFF;
+    margin-top: 100px;
+text-align: center;
+font-family: Lato;
+font-size: 38.257px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.765px;
+}
+.buts{
+    margin-top: 15px;
+    display: flex;
+    height: 100px;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 20px; Optional padding for better visualization */
+  }
+  .but2{
+    margin-left: 120px;
+  }
+  .but4{
+    margin-right: 120px;
+  }
+
